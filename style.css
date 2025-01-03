@@ -135,6 +135,22 @@
   display: none !important; 
 /*End of Super.so Code*/
 
+@font-face {
+    font-family: 'Gentium Book Basic';
+    src: url('https://assets-v2.super.so/global/fonts/Gentium_Basic/gentium-book-basic-v16-latin-ext_latin-regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Gentium Book Basic';
+    src: url('https://assets-v2.super.so/global/fonts/Gentium_Basic/gentium-book-basic-v16-latin-ext_latin-700.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+
 /* Smore Signup embeds*/
   .smore-list-subscribe-form {
         background: #fff;
