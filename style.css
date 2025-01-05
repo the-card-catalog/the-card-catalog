@@ -135,11 +135,4 @@
   display: none !important; 
 /*End of Super.so Code*/
 
-a {
-  color: var(--notion-yellow-base)!important;
-}
-a:hover {
-  text-decoration: none;
-  color: #000000 !important;
-}
 
