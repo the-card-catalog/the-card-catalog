@@ -135,4 +135,9 @@
   display: none !important; 
 /*End of Super.so Code*/
 
+/*Center Column Content*/
+.notion-column {
+  align-items: center;
+}
+
 
