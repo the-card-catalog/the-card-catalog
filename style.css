@@ -129,15 +129,13 @@
     color: var(--picker-text-color) !important;
   }
 }
-
+}
  /* Hides brown Notion Toggles*/ 
 .notion-toggle.bg-brown { 
   display: none !important; 
 /*End of Super.so Code*/
-
+}
 /*Center Column Content*/
 .notion-column {
   align-items: center;
 }
-
-
