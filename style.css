@@ -20,6 +20,7 @@
   --notion-yellow-base: #CB912F !important;
   /* Notion Yellow (Hover) */
   --notion-yellow-hover: #A47724 !important;
+  --button-text-size: 20px !important;
     
   .notion-collection__header-wrapper .notion-dropdown__menu-header,
   .notion-dropdown__button svg:first-of-type,
@@ -135,7 +136,28 @@
   display: none !important; 
 /*End of Super.so Code*/
 }
-/*Center Column Content*/
-.notion-column {
-  align-items: center;
+/* Turn a single line callout block into a button (Entire block is clickable). NOTE: the block has to be blue for this to work. */
+.notion-callout.bg-blue-light .notion-link{
+  color: white !important;
+  opacity: 1;
+  text-decoration: none;
+  text-align: center !important;
+  display: block;
+  font-weight: 900;
+  
+  
+}
+.notion-callout.bg-blue-light{
+  padding:10px 20px!important;
+  font-size: var(--button-text-size);
+  border-radius: 50px;
+  background-color: var(--notion-yellow-base);
+  
+}
+.notion-callout.bg-blue-light:hover{
+  scale:1.1;
+  background-color: var(--notion-yellow-hover);
+}
+.notion-callout.bg-blue-light .notion-link:hover{
+  color: black !important;
 }
