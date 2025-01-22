@@ -157,6 +157,7 @@
 .notion-callout.bg-blue-light:hover{
   scale:1.1;
   background-color: var(--notion-yellow-hover);
+  color: black !important;
 }
 .notion-callout.bg-blue-light .notion-link:hover{
   color: black !important;
