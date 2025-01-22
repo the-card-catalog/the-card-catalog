@@ -138,7 +138,7 @@
 }
 /* Turn a single line callout block into a button (Entire block is clickable). NOTE: the block has to be blue for this to work. */
 .notion-callout.bg-blue-light .notion-link{
-  color: white !important;
+  color: black !important;
   opacity: 1;
   text-decoration: none;
   text-align: center !important;
