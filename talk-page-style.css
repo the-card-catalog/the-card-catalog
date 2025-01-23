@@ -27,6 +27,9 @@
 .notion-callout.bg-green-light a {
     text-decoration: none !important;
     color: black !important;
+    &:hover {
+        color: white !important;
+    }
 }
 
 .notion-callout.bg-green-light {
