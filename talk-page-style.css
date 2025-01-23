@@ -26,6 +26,7 @@
 
 .notion-callout.bg-green-light a {
     text-decoration: none !important;
+    color: black !important;
 }
 
 .notion-callout.bg-green-light {
