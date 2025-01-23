@@ -2,14 +2,15 @@
 /* url: https://thecardcataloglibrarians.com/the-card-catalog-database/great-books-the-ambassador-for-beauty */
 
 .notion-collection-card.gallery {
-    background-color: var(--notion-yellow-base);
+    background-color: white !important;
+    border: solid 2px var(--notion-yellow-base);
     border-radius: 100px !important;
     padding: 5px 10px !important;
 }
 
-.notion-collection-card.gallery:hover {
-    background-color: var(--notion-yellow-hover);
-    color: white !important;
+.notion-collection-card.gallery:hover{
+    background-color:var(--notion-yellow-base)!important;
+    color: white!important;
 }
 
 .notion-collection-card__property {
